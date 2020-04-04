@@ -1,5 +1,5 @@
 <template>
-  <h2>Balance: <span :class ="totalClass">{{total}}</span></h2>
+  <h2>Balance: <span :class="totalClass">{{total}}</span></h2>
 </template>
 
 <script>
@@ -33,7 +33,7 @@ export default {
   color: green;
 }
 .negative{
-  color: red;;
+  color: red;
 
 }
 .zero{
